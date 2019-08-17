@@ -3,16 +3,12 @@
 
 require: rubocop-rails
 
-# We will need to improve our Exclude list by removing elements soon
-# Excluding vendor/**/* so that CircleCI doesn't check those in their environment
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
     - 'app/**/*.json.jbuilder'
     - 'bin/**/*'
     - 'config/**/*'
-    - 'db/**/*'
-    - 'lib/**/*'
     - 'node_modules/**/*'
     - 'test/**/*'
     - 'vendor/**/*'

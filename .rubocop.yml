@@ -13,6 +13,7 @@ AllCops:
     - 'config/**/*'
     - 'db/**/*'
     - 'lib/**/*'
+    - 'node_modules/**/*'
     - 'test/**/*'
     - 'vendor/**/*'
 

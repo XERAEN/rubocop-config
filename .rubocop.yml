@@ -6,11 +6,8 @@ require: rubocop-rails
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
-    - 'app/**/*.json.jbuilder'
     - 'bin/**/*'
-    - 'config/**/*'
     - 'node_modules/**/*'
-    - 'test/**/*'
     - 'vendor/**/*'
 
 # super.match? /simple/

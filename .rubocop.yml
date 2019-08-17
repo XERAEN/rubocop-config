@@ -6,6 +6,7 @@ require: rubocop-rails
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
+    - 'db/migrate/**/*'
     - 'db/schema.rb'
     - 'bin/**/*'
     - 'node_modules/**/*'

@@ -15,7 +15,7 @@ Add this to your Rubocop config
 
 ```
 inherit_from:
-  - https://raw.githubusercontent.com/xeraen/rubocop-config/master/.rubocop.yml
+  - https://raw.githubusercontent.com/jordanbsanders/rubocop-config/master/.rubocop.yml
 ```
 
 Once you run Rubocop, it will cache the remote config locally.  We don't want to commit that cache
@@ -23,7 +23,7 @@ to our repositories, so add this to your `.gitignore`
 
 ```
 # Ignore local cache of remote Rubocop config
-.rubocop-https---raw-githubusercontent-com-xeraen-rubocop-config-master--rubocop-yml
+.rubocop-https---raw-githubusercontent-com-jordanbsanders-rubocop-config-master--rubocop-yml
 ```
 
 Install the new gem
